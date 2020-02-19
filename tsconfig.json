@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": ".",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "importHelpers": false,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "module": "amd",
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "noEmitOnError": true,
+    "outDir": "FileCabinet/SuiteApps/com.netsuite.typescriptbundle/dist/compiled",
+    "rootDir" : "./ts/com.netsuite.typescriptbundle",
+    "paths": {
+      "N": [
+        "node_modules/@hitc/netsuite-types/N"
+      ],
+      "N/*": [
+        "node_modules/@hitc/netsuite-types/N/*"
+      ]
+    },
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "build/*",
+    "test/**/*"
+  ],
+  "include": [
+    "ts/**/*"
+  ]
+}
